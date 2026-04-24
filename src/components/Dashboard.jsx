@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import MealCard from './MealCard';
 import { foodDatabase } from '../data/foodDatabase';
-import { Droplet, Flame, ArrowLeft, Sun, CalendarDays, ShoppingBag } from 'lucide-react';
+import { Droplet, Flame, ArrowLeft, Sun, CalendarDays, ShoppingBag, Utensils, HeartPulse } from 'lucide-react';
 
 export default function Dashboard({ userPrefs, onBack }) {
   const [dailyPlan, setDailyPlan] = useState({});
